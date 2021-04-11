@@ -8,5 +8,5 @@
 ## CLI for database
 
 ```shell
-    vendor/bin/doctrine
+vendor/bin/doctrine
 ```

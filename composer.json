@@ -1,0 +1,26 @@
+{
+    "name": "app/app",
+    "description": "simple web app",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Polvanov Igor",
+            "email": "polvanovv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "5.x-dev",
+        "symfony/routing": "5.x-dev",
+        "symfony/http-kernel": "5.x-dev",
+        "twig/twig": "^3.0",
+        "doctrine/orm": "3.0.x-dev",
+        "symfony/dependency-injection": "5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

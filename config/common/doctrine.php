@@ -4,7 +4,7 @@ use Doctrine\ORM\Tools\Setup;
 
 return [
     'config' => Setup::createAnnotationMetadataConfiguration(
-        [__DIR__."/../src/Entity"],
+        [__DIR__."/../../src/Entity"],
         true,
         null,
         null,

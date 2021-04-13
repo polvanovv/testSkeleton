@@ -1,7 +1,7 @@
 # Installation
 
 ```shell
- composer clone  https://github.com/polvanovv/testSkeleton.git
+ git clone  https://github.com/polvanovv/testSkeleton.git
  composer install
 ```
 
